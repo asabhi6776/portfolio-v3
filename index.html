@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Singh</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e350be7360.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="#">Abhishek Singh</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="mailto:abhishek21997@outlook.com">Contact</a></li>
+                <li><a href="https://opscribe.blog">Blog</a></li>
+            </ul>
+        </div>
+
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<section class="home">
+  <div class="hero-content">
+    <img src="assets/hero.png" alt="Abhishek Singh">
+    <h1>Abhishek Singh</h1>
+    <p>Devops Engineer & Tech Enthusiast</p>
+    <div class="cta-buttons">
+      <a href="https://github.com/asabhi6776" class="btn primary-btn"><i class="fa-brands fa-github fa-2xl"></i></a>
+      <a href="https://hashnode.com/@asabhi6776" class="btn primary-btn"><i class="fa-brands fa-hashnode fa-2xl"></i></a>
+      <a href="https://twitter.com/asabhi6776" class="btn primary-btn"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+      <a href="https://www.linkedin.com/in/asabhi6776/" class="btn primary-btn"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+      <a href="http://opscribe.blog" class="btn primary-btn"><i class="fa-duotone fa-solid fa-blog fa-2xl"></i></a>
+      <a href="mailto:abhishek21997@outlook.com" class="btn primary-btn"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+    </div>
+</div>
+</section>
+<div style="height: 1000px">
+    <!-- just to make scrolling effect possible -->
+  <h2 class="myH2">What is this ?</h2>
+  <p class="myP">This is a responsive fixed navbar animated on scroll</p>
+  <p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
+  and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
+  <p class="myP">I HOPE YOU FIND THIS USEFULL</p>
+  <p class="myP">Albi</p>
+    <p class="myP">
+    
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+  </p>
+</div>
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+</body>
+</html>
