@@ -1,21 +1,21 @@
-{
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src=*; script-src=*; unsafe-inline; font-src=*"
-        },
-        {
-          "key": "Strict-Transport-Security",
-          "value": "max-age=31536000; includeSubDomains; preload;"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        }
-      ]
-    }
-  ]
-}
+// {
+//   "headers": [
+//     {
+//       "source": "/(.*)",
+//       "headers": [
+//         {
+//           "key": "Content-Security-Policy",
+//           "value": "default-src 'self' 'unsafe-inline'; style-src 'self' kit.fontawesome.com fonts.googleapis.com fonts.gstatic.com ajax.googleapis.com; script-src 'self' kit.fontawesome.com ajax.googleapis.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com ajax.googleapis.com kit.fontawesome.com;"
+//         },
+//         {
+//           "key": "Strict-Transport-Security",
+//           "value": "max-age=31536000; includeSubDomains; preload;"
+//         },
+//         {
+//           "key": "X-Content-Type-Options",
+//           "value": "nosniff"
+//         }
+//       ]
+//     }
+//   ]
+// }
