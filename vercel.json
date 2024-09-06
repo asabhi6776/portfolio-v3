@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src '*'; script-src '*' iamabhishek.co; style-src '*' iamabhishek.co;"
+          "value": "default-src *; script-src *; script-src-elem *; script-src-attr *; font-src *"
         },
         {
           "key": "Strict-Transport-Security",
